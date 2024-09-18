@@ -153,9 +153,9 @@ Web Interface
     - Authentication Required: Yes
 
 ## Running the Application
-To start the local development server, use:
-   ```bash
-     php artisan serve
+    To start the local development server, use:
+       ```bash
+         php artisan serve
 
 ## Testing
 To run the tests, use:
