@@ -164,9 +164,11 @@ To start the local development server, use:
 
     php artisan serve
     php artisan test
-    
-Social Media
-- Twitter
-- LinkedIn
-- GitHub
 
+## Results
+
+Here are some screenshots of the application:
+
+![Screenshot 1](https://example.com/screenshot1.png) 
+![Screenshot 2](https://example.com/screenshot2.png)
+![Screenshot 3](https://example.com/screenshot3.png)
