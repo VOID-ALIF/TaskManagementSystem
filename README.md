@@ -4,6 +4,12 @@
 
 This Task Management System allows users to manage tasks with full CRUD (Create, Read, Update, Delete) functionality, along with task filtering and sorting. Additionally, it provides a RESTful API for interaction with other applications. Users can register, log in, and manage their tasks through a user-friendly interface.
 
+## Contributing
+Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
+
+## License
+This project is licensed under the MIT License. See the LICENSE.md file for details.
+
 ## Features
 
 1. **User Authentication**
