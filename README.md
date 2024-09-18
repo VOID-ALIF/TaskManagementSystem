@@ -47,8 +47,9 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
        
    ```bash
    composer install
-   cp .env.example .env
-   php artisan key:generate
+----
+           cp .env.example .env
+           php artisan key:generate
 
 5. **Configure Database**
 
@@ -72,11 +73,11 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
        php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
        php artisan migrate
 ----
-        'api' => [
-            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
-            'throttle:api',
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        ],
+            'api' => [
+                \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+                'throttle:api',
+                \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            ],
 
 ## usage
 Web Interface
