@@ -1,4 +1,4 @@
-![Laravel Logo](https://laravel.com/img/logomark.min.svg)
+![Laravel Logo](https://laravel.com/img/logomark.min.svg)![Laravel Logo](https://laravel.com/img/logotype.min.svg)
 
 # Task Management System 
 ## Overview
