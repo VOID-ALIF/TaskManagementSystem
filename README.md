@@ -9,6 +9,7 @@
 ## Overview
 
 This Task Management System allows users to manage tasks with full CRUD (Create, Read, Update, Delete) functionality, along with task filtering and sorting. Additionally, it provides a RESTful API for interaction with other applications. Users can register, log in, and manage their tasks through a user-friendly interface.
+![Dashboard](Results/Dashboard.png)
 
 ## Features
 
@@ -31,7 +32,6 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
 3. **Task Filtering and Sorting**
    - **Filter**: Filter tasks by status (e.g., Pending, In Progress, Completed).
    - **Sort**: Sort tasks by due date.
-   ![Dashboard](Results/Dashboard.png)
 
 4. **API Development**
    - A RESTful API is available for interacting with the task management system from external applications.
