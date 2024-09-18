@@ -1,8 +1,9 @@
 ![Laravel Logo](https://laravel.com/img/logomark.min.svg)![Laravel Logo](https://laravel.com/img/logotype.min.svg)
 
-<!-- Laravel Logo with space between them -->
-<img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Logomark" height="50" style="margin-right: 20px;" />
-<img src="https://laravel.com/img/logotype.min.svg" alt="Laravel Logotype" height="50" />
+<p>
+    <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Logomark" height="50" style="margin-right: 20px; vertical-align: middle;" />
+    <img src="https://laravel.com/img/logotype.min.svg" alt="Laravel Logotype" height="50" style="vertical-align: middle;" />
+</p>
 
 
 # Task Management System 
