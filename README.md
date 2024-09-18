@@ -147,16 +147,15 @@ Web Interface
     - Authentication Required: Yes
 
 ## Running the Application
-    To start the local development server, use:
-       ```bash
-         php artisan serve
+To start the local development server, use:
+    ```bash
+    php artisan serve
 
 ## Testing
-To run the tests, use:
-   ```bash
+To run the tests, use: ```bash
      php artisan test
 
 ## Contributing
-    Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
+Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
 ## License
-    This project is licensed under the MIT License. See the LICENSE.md file for details.
+This project is licensed under the MIT License. See the LICENSE.md file for details.
