@@ -1,21 +1,8 @@
-# Task Management System
-![Laravel Logo](https://laravel.com/img/logotype.min.svg) <!-- Laravel Logo -->
-
+![Laravel Logo](https://laravel.com/img/logotype.min.svg)
+# Task Management System 
 ## Overview
 
 This Task Management System allows users to manage tasks with full CRUD (Create, Read, Update, Delete) functionality, along with task filtering and sorting. Additionally, it provides a RESTful API for interaction with other applications. Users can register, log in, and manage their tasks through a user-friendly interface.
-
-## Social Media
-
-[![Twitter](https://img.shields.io/twitter/follow/yourprofile?style=social)](https://twitter.com/yourprofile)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/github/followers/yourprofile?style=social)](https://github.com/yourprofile)
-
-## Contributing
-Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
-
-## License
-This project is licensed under the MIT License. See the LICENSE.md file for details.
 
 ## Features
 
@@ -169,6 +156,20 @@ To start the local development server, use:
 
 Here are some screenshots of the application:
 
-![Screenshot 1](https://example.com/screenshot1.png) 
-![Screenshot 2](https://example.com/screenshot2.png)
-![Screenshot 3](https://example.com/screenshot3.png)
+![Screenshot 1](results/screenshot1.png)
+![Screenshot 2](results/screenshot2.png)
+![Screenshot 3](results/screenshot3.png)
+
+## Social Media
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue)](https://linkedin.com/in/alif-rahman-on-computer)
+[![GitHub](https://img.shields.io/github/followers/yourprofile?style=social)](https://github.com/VOID-ALIF)
+[![Facebook](https://img.shields.io/badge/Facebook-4267B2?logo=facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/alif.facebook)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:alif.rahman.c@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge)](https://wa.me/+8801300155542)
+
+## Contributing
+Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
+
+## License
+This project is licensed under the MIT License. See the LICENSE.md file for details.
