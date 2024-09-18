@@ -32,28 +32,29 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
 - MySQL or another supported database
 
 ## Installation
-
 1. **Clone the Repository**
-
+    
    ```bash
    git clone https://github.com/your-repository/task-manager.git
    cd task-manager
-
+   
 2. **Install Dependencies**
-
+    
    ```bash
    composer install
-
+   
 3. **Set Up Environment**
-
+       
    ```bash
    composer install
-  Copy the .env.example file to .env & Generate a new application Key:
-  ```bash
-   cp .env.example .env
-   php artisan key:generate
+   
+Copy the .env.example file to .env & Generate a new application Key:
 
-4. **Configure Database**
+      ```bash
+       cp .env.example .env
+       php artisan key:generate
+
+5. **Configure Database**
 
    ```env
     DB_CONNECTION=mysql
@@ -62,7 +63,106 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
     DB_DATABASE=your_database
     DB_USERNAME=your_username
     DB_PASSWORD=your_password
+   
+6. Run Migrations
+   
+   ```bash
+   php artisan migrate
+   
+8. Install Laravel Sanctum
 
+   ```bash
+       composer require laravel/sanctum
+       php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+       php artisan migrate
 
+Add Sanctum middleware to api middleware group in app/Http/Kernel.php:
+    
+    ```bash
+        'api' => [
+            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+            'throttle:api',
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ],
 
-  
+## usage
+Web Interface
+
+1. Register
+   - Navigate to /register to create a new account.
+2. Log In
+   - Navigate to /login to log in.
+3. Manage Tasks
+   - Navigate to /tasks to view the list of tasks.
+   - Use the "Create New Task" button to add a new task.
+   - Use the edit button to modify existing tasks.
+   - Use the delete button to remove tasks.
+4. Filter and Sort Tasks
+   - Use the filter dropdown to select task statuses.
+   - Use the sort dropdown to order tasks by due date.
+
+## API Endpoints
+
+- Login
+  - Endpoint: POST /api/login
+  - Parameters:
+    - email: User's email address.
+    - password: User's password.
+      
+  - Response: Returns a JSON object with an API token.
+
+- Logout
+  - Endpoint: POST /api/logout
+  - Authentication Required: Yes
+  - Response: Returns a JSON message confirming logout.
+
+- Tasks
+  - List Tasks
+    - Endpoint: GET /api/tasks
+    - Authentication Required: Yes
+      
+  - Create Task
+    - Endpoint: POST /api/tasks
+    - Parameters:
+      - title: Title of the task.
+      - description: Description of the task (optional).
+      - status: Status of the task.
+      - due_date: Due date of the task (optional).
+    - Authentication Required: Yes
+      
+  - View Task
+    - Endpoint: GET /api/tasks/{task}
+    - Parameters:
+      - task: Task ID.
+    - Authentication Required: Yes
+      
+  - Update Task
+    - Endpoint: PUT /api/tasks/{task}
+    - Parameters:
+      - task: Task ID.
+      - title: Title of the task.
+      - description: Description of the task (optional).
+      - status: Status of the task.
+      - due_date: Due date of the task (optional).
+    - Authentication Required: Yes
+      
+  - Delete Task
+    - Endpoint: DELETE /api/tasks/{task}
+    - Parameters:
+      - task: Task ID.
+    - Authentication Required: Yes
+
+## Running the Application
+To start the local development server, use:
+       ```bash
+         php artisan serve
+
+## Testing
+To run the tests, use:
+       ```bash
+         php artisan test
+
+## Contributing
+    Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
+## License
+    This project is licensed under the MIT License. See the LICENSE.md file for details.
