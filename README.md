@@ -146,17 +146,9 @@ Web Interface
       - task: Task ID.
     - Authentication Required: Yes
 
-## **Running the Application**
+## **Running the Application & Testing**
 To start the local development server, use:
-    ```bash
-         php artisan serve
 
-9. **Testing**
-To run the tests, use: 
-    ```bash
-         php artisan test
-    
-10. **Contributing**
-Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
-## **License**
-This project is licensed under the MIT License. See the LICENSE.md file for details.
+```bash
+php artisan serve
+php artisan test
