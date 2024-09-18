@@ -14,18 +14,24 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
 
 1. **User Authentication**
    - Register: Users can create a new account.
+    ![Register](Results/Register.png)
    - Log In: Users can log in to their account.
+     ![Login](Results/Login.png)
    - Log Out: Users can log out from their account.
 
-2. **Task CRUD Operations**
+2. **Task CRUD Operations** 
    - **Create**: Users can add new tasks.
+   ![CreateTask](Results/CreateTask.png)
    - **Read**: Users can view a list of tasks.
+   ![TaskList](Results/TaskList.png)
    - **Update**: Users can edit existing tasks.
+   ![EditTask](Results/EditTask.png)
    - **Delete**: Users can remove tasks.
 
 3. **Task Filtering and Sorting**
    - **Filter**: Filter tasks by status (e.g., Pending, In Progress, Completed).
    - **Sort**: Sort tasks by due date.
+   ![Dashboard](Results/Dashboard.png)
 
 4. **API Development**
    - A RESTful API is available for interacting with the task management system from external applications.
@@ -168,11 +174,11 @@ Here are some screenshots of the application:
 
 ## Social Media
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue)](https://linkedin.com/in/alif-rahman-on-computer)
-[![GitHub](https://img.shields.io/github/followers/yourprofile?style=social)](https://github.com/VOID-ALIF)
 [![Facebook](https://img.shields.io/badge/Facebook-4267B2?logo=facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/alif.facebook)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:alif.rahman.c@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge)](https://wa.me/+8801300155542)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue)](https://linkedin.com/in/alif-rahman-on-computer)
+[![GitHub](https://img.shields.io/github/followers/yourprofile?style=social)](https://github.com/VOID-ALIF)
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
