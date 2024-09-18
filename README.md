@@ -43,16 +43,12 @@ This Task Management System allows users to manage tasks with full CRUD (Create,
    ```bash
    composer install
    
-3. **Set Up Environment**
+3. **Set Up Environment & Copy the .env.example file to .env & Generate a new application Key: **
        
    ```bash
    composer install
-   
-Copy the .env.example file to .env & Generate a new application Key:
-
-      ```bash
-       cp .env.example .env
-       php artisan key:generate
+   cp .env.example .env
+   php artisan key:generate
 
 5. **Configure Database**
 
@@ -69,16 +65,13 @@ Copy the .env.example file to .env & Generate a new application Key:
    ```bash
    php artisan migrate
    
-8. Install Laravel Sanctum
+8. **Install Laravel Sanctum & Add Sanctum middleware to api middleware group in app/Http/Kernel.php:**
 
    ```bash
        composer require laravel/sanctum
        php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
        php artisan migrate
 
-Add Sanctum middleware to api middleware group in app/Http/Kernel.php:
-    
-    ```bash
         'api' => [
             \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
             'throttle:api',
