@@ -1,8 +1,15 @@
 # Task Management System
+![Laravel Logo](https://laravel.com/img/logotype.min.svg) <!-- Laravel Logo -->
 
 ## Overview
 
 This Task Management System allows users to manage tasks with full CRUD (Create, Read, Update, Delete) functionality, along with task filtering and sorting. Additionally, it provides a RESTful API for interaction with other applications. Users can register, log in, and manage their tasks through a user-friendly interface.
+
+## Social Media
+
+[![Twitter](https://img.shields.io/twitter/follow/yourprofile?style=social)](https://twitter.com/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/github/followers/yourprofile?style=social)](https://github.com/yourprofile)
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
@@ -155,6 +162,11 @@ Web Interface
 ## **Running the Application & Testing**
 To start the local development server, use:
 
-```bash
-php artisan serve
-php artisan test
+    php artisan serve
+    php artisan test
+    
+Social Media
+- Twitter
+- LinkedIn
+- GitHub
+
