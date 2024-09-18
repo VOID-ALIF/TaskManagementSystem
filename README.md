@@ -164,21 +164,11 @@ To start the local development server, use:
     php artisan serve
     php artisan test
 
-## Results
-
-Here are some screenshots of the application:
-
-![Screenshot 1](results/screenshot1.png)
-![Screenshot 2](results/screenshot2.png)
-![Screenshot 3](results/screenshot3.png)
-
 ## Social Media
 
 [![Facebook](https://img.shields.io/badge/Facebook-4267B2?logo=facebook&logoColor=white&style=for-the-badge)](https://www.facebook.com/alif.facebook)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:alif.rahman.c@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge)](https://wa.me/+8801300155542)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourprofile-blue)](https://linkedin.com/in/alif-rahman-on-computer)
-[![GitHub](https://img.shields.io/github/followers/yourprofile?style=social)](https://github.com/VOID-ALIF)
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
