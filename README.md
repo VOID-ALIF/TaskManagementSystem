@@ -154,13 +154,13 @@ Web Interface
 
 ## Running the Application
 To start the local development server, use:
-       ```bash
-         php artisan serve
+   ```bash
+     php artisan serve
 
 ## Testing
 To run the tests, use:
-       ```bash
-         php artisan test
+   ```bash
+     php artisan test
 
 ## Contributing
     Feel free to contribute to this project by submitting issues or pull requests. For more details, see CONTRIBUTING.md.
