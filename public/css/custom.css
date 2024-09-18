@@ -1,0 +1,171 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+h1, h2, h3 {
+    color: #a3aec7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+thead {
+    background-color: #4B5563;
+    color: #F9FAFB;
+}
+
+th, td {
+    padding: 0.75rem;
+    border: 1px solid #E5E7EB;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #3c3f4250;
+    color: #111827;
+}
+
+tbody tr:hover {
+    background-color: #E5E7EB;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-success {
+    background-color: #10B981;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #059669;
+}
+
+.btn-warning {
+    background-color: #F59E0B;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #D97706;
+}
+
+.btn-danger {
+    background-color: #EF4444;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #DC2626;
+}
+
+header {
+    background-color: #F3F4F6;
+    border-bottom: 1px solid #E5E7EB;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #2563EB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1D4ED8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #E5E7EB;
+    background-color: #F9FAFB;
+    color: #111827;
+}
+
+.form-control:focus {
+    border-color: #2563EB;
+    outline: none;
+    box-shadow: 0 0 0 1px #2563EB;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-success {
+    background-color: #10B981;
+}
+
+.btn-success:hover {
+    background-color: #059669;
+}
+
+.btn-warning {
+    background-color: #F59E0B;
+}
+
+.btn-warning:hover {
+    background-color: #D97706;
+}
+
+.btn-danger {
+    background-color: #EF4444;
+}
+
+.btn-danger:hover {
+    background-color: #DC2626;
+}
+
+h1, h2 {
+    color: #111827;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.field-error {
+    color: #EF4444;
+    font-size: 0.875rem;
+}
