@@ -1,6 +1,6 @@
 
 <p>
-    <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Logomark" height="50" style="margin-right: 50px; vertical-align: middle;" />
+    <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Logomark" height="50" style="margin-right: 80px; vertical-align: middle;" />
     <img src="https://laravel.com/img/logotype.min.svg" alt="Laravel Logotype" height="50" style="vertical-align: middle;" />
 </p>
 
